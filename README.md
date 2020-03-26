@@ -11,21 +11,20 @@ A Python library for [satang.pro](https://docs.satang.pro/) API
 
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Initial a Object](#initobj)
+    - [Initial a Object]($initobj)
     - [Viewing Orders](#viewingorder)
     - [Viewing Orderbook Tickers](#viewingorderbooktickers)
 
 
 ## Installation <a name="installation"></a>
 
+    pip install satang-pro
 
 ## Usage <a name="usage"></a>
 
     from satang_pro import SatangPro
 
 ### Initial a object <a name="initobj"></a>
-
-    pip install satang-pro
 
 #### Parameter:
 

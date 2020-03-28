@@ -14,6 +14,7 @@ A Python library for [satang.pro](https://docs.satang.pro/) API
     - [Initial a Object]($initobj)
     - [Viewing Orders](#viewingorder)
     - [Viewing Orderbook Tickers](#viewingorderbooktickers)
+    - [Viewing User Info](#viewinguserinfo)
 
 
 ## Installation <a name="installation"></a>
@@ -103,4 +104,20 @@ A Python library for [satang.pro](https://docs.satang.pro/) API
           'amount': '200'
         }
       }
+
+
+
+  ### Viewing User Info <a name="viewinguserinfo"></a>
+
+  #### Function:
+
+      sp.users()
+
+  #### Response:
+
+    {
+      "id": 999,
+      "email": "satang-user@satang.com",
+      "identity_verification_level": "level_1",
+      ...
     }
